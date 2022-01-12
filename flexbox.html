@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container{
+            height: 500px;
+            border: 2px solid deeppink;
+            display: flex;
+            align-items:stretch;
+        }
+        .box{
+            width: 300px;
+            border:4px dotted purple;
+            font-size: 30px;
+        }
+        #box1{
+            flex-grow: 1;
+            order:2;
+        }
+        #box2{
+            flex-grow: 3;
+            order:1;
+        }
+        #box3{
+            flex-grow: 1;
+            order:3;
+        }
+    </style>
+</head>
+<body>
+    <h1>I am felxible right now</h1>
+    <div class="container">
+        <div id="box1" class="box">box-1</div>
+        <div id="box2" class="box">box-2</div>
+        <div id="box3" class="box">box-3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(3,200px);
+            grid-gap: 40px;
+        }
+        .grid-box{
+            border: 3px solid goldenrod;
+            padding: 20px;
+            background-color: grey;
+            font-weight: 700;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Explore CSS Grid</h1>
+    <section class="grid-container">
+       <div class="grid-box">box-1</div>
+       <div class="grid-box">box-2</div>
+       <div class="grid-box">box-3</div>
+       <div class="grid-box">box-4</div>
+       <div class="grid-box">box-5</div>
+       <div class="grid-box">box-6</div>
+       <div class="grid-box">box-7</div>
+       <div class="grid-box">box-8</div>
+       <div class="grid-box">box-9</div>
+       <div class="grid-box">box-10</div>
+       <div class="grid-box">box-11</div>
+       <div class="grid-box">box-12</div>
+    </section>
+</body>
+</html>
